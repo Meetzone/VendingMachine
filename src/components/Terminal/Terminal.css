@@ -1,0 +1,43 @@
+.Terminal-column {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 35%;
+    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.Display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px 20px;
+    height: 60px;
+    border-radius: 6px;
+    background: #221d28;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #36C9C6;
+    text-align: center;
+}
+
+.KeypadButton.Buy {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border-radius: 25px;
+    background: green;
+}
+
+.KeypadButton.Buy:hover {
+    background: #014801;
+}
+
+.KeypadButton.Buy:active {
+    background: #014801;
+    transform: translateY(2px);
+    outline: none;
+    border: none;
+}

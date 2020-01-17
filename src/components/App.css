@@ -1,0 +1,16 @@
+#root {
+    padding: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Container {
+    display: flex;
+    background-color: #7C7287;
+    color: #fff;
+    box-shadow: 0px 0px 10px 10px darkgray;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}

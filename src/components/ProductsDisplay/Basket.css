@@ -1,0 +1,24 @@
+.Basket {
+    height: 180px;
+    background-color: #463B51;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.Basket .Product {
+    justify-content: center;
+    align-items: center;
+}
+
+.Basket .Product img {
+    width: 150px;
+    height: 150px;
+}
+
+.BasketError {
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    text-align: center;
+    color: red;
+}
