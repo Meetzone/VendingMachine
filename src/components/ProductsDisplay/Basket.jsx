@@ -9,7 +9,7 @@ const Basket = (props) => {
     const renderBasketProduct = () => {
         return basketProducts.map((product) => {
             return (
-                <li className="Product" key={product.id}>
+                <li className="Product" key={Math.random()}>
                     <img src={product.image} alt={product.title} />
                 </li>
             )
